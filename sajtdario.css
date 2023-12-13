@@ -1,0 +1,248 @@
+html {
+	cursor:none;
+	cursor: url('cursor1.png'), auto;
+}
+
+
+body {
+	background-color:black;
+	background-repeat:no-repeat;
+	padding: 0px;
+}
+
+
+
+.column {
+	width: auto;
+	height: 100vh;
+}
+
+.page .column {
+	height: 100vh;
+}
+
+#logo-i-social {
+	display: flex;
+}
+
+#logo-holder {
+	flex-grow: 1;
+	padding-top:5px;
+	padding-left:5px;
+	padding-bottom:5px;
+}
+
+#social-holder {
+	flex-grow: 1;
+	text-align: right;
+}
+
+
+#logo {
+	transition: all 0.3s;
+}
+#logo:hover {
+	cursor: url('cursor2.png'), auto;
+	transform: scale(1.3);
+}
+
+
+#ig {
+	padding-top:5px;
+	padding-right:5px;
+	margin:5px;
+	transition: all 0.3s;
+}
+#ig:hover {
+	cursor: url('cursor2.png'), auto;
+	transform: scale(1.3);
+}
+
+
+
+
+#twitter {
+	padding-top:5px;
+	margin:5px;
+	transition: all 0.3s;
+}
+#twitter:hover {
+	cursor: url('cursor2.png'), auto;
+	transform: scale(1.3);
+}
+
+
+
+
+
+#fb {
+	padding-top:5px;
+	margin:5px;
+	transition: all 0.3s;
+}
+#fb:hover {
+	cursor: url('cursor2.png'), auto;
+	transform: scale(1.3);
+}
+
+
+
+
+#yt {
+	padding-top:5px;
+	margin:5px;
+	transition: all 0.3s;
+}
+#yt:hover {
+	cursor: url('cursor2.png'), auto;
+	transform: scale(1.3);
+}
+
+
+#tt {
+	padding-top:5px;
+	margin:5px;
+	transition: all 0.3s;
+}
+#tt:hover {
+	cursor: url('cursor2.png'), auto;
+	transform: scale(1.3);
+}
+
+
+
+
+
+#main-menu {
+	display: flex;
+}
+
+#main-menu a {
+	flex-grow: 1;
+	text-align: center;
+	display: block;
+	border: 1px solid rgb(11, 85, 222);
+	padding: 10px 0;
+	text-decoration: none;
+	color:rgb(11, 85, 222);
+	font: 1000 1rem sans-serif;
+	transition: all 450ms;
+}
+
+#main-menu a:hover {
+	color:black;
+	background:rgb(11, 85, 222);
+	cursor: url('cursor2.png'), auto;
+}
+
+
+#body-title {
+	flex-grow: 1;
+	text-align: center;
+	color:rgb(0, 89, 255);
+	font: 1000 1rem sans-serif;
+}
+
+
+#pocetna {
+	background-image:url('bcbg2.png');
+	background-size: cover;
+	background-attachment: fixed;
+	color:rgb(15, 109, 231);
+}
+
+#pocetna h1 {
+	font-size: 48px;
+	margin-top: 0px;
+	padding-top: 50px;
+}
+
+.dark-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: rgb(6, 29, 73, 0.205);
+	border: 5px solid rgb(15, 109, 231);
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	font-size: 17pt;
+	transition: all 0.3s;
+}
+
+.dark-box:hover {
+	transform: scale(1.2);
+}
+  
+.dark-box p {
+	max-width: 100%;
+  }
+
+.column iframe {
+	transition: all 0.3s;
+	opacity: 50%;
+	margin: 0 auto;
+	display: flex;
+}
+
+.column iframe:hover {
+	transform: scale(1.2);
+}
+
+
+#o-nama {
+	background-image:url('bcbg3.png');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#usluge {
+	background-image:url('bcbg4.png');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#proizvodi {
+	background-image:url('bcbg5.png');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#karijera {
+	background-image:url('bcbg6.png');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#kontakt {
+	background-image:url('bcbg7.png');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#klijenti {
+	background-image:url('bcbg8.png');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#struktura {
+	background-image:url('bcbg9.png');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.footer {
+	background-image:url('bcbg11.png');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+#main-menu a.active {
+	color:black;
+	background:rgb(11, 85, 222);
+}
