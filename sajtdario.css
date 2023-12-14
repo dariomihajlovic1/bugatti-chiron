@@ -246,3 +246,36 @@ body {
 	color:black;
 	background:rgb(11, 85, 222);
 }
+
+.align-center {
+	text-align:center;
+	color: rgb(15, 109, 231);
+}
+
+.krugovi {
+	display: flex;
+	margin: 40px 0;
+}
+
+.krug-holder {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.krug {
+	background: rgb(15, 109, 231);
+	color:rgb(20, 40, 255);
+	font-size: 32px;
+	font-weight: bold;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	border-radius: 100%;
+	line-height: 7.5;
+}
+
+.oznaka {
+	font-size: 24px;
+	font-weight: bold;
+	color: rgb(15, 109, 231);
+}
