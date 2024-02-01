@@ -193,13 +193,13 @@ body {
 }
 
 
-#o-nama {
+#o-bugattiju {
 	background-image:url('bcbg3.png');
 	background-size: cover;
 	background-attachment: fixed;
 }
 
-#usluge {
+#vrste {
 	background-image:url('bcbg4.png');
 	background-size: cover;
 	background-attachment: fixed;
@@ -278,4 +278,100 @@ body {
 	font-size: 24px;
 	font-weight: bold;
 	color: rgb(15, 109, 231);
+}
+
+.dark-box2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: rgb(6, 29, 73, 0.205);
+	border: 5px solid rgb(15, 109, 231);
+	width: 50%;
+	max-width: 500px;
+	margin: 10px auto;
+	padding: 10px;
+	font-size: 14pt;
+	transition: all 0.3s;
+}
+
+.dark-box2:hover {
+	transform: scale(1.2);
+}
+  
+.dark-box2 p {
+	max-width: 100%;
+  }
+
+.gume {
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
+  	gap: 0px; 
+	flex-wrap: wrap;
+	margin-left: 45px;
+}
+
+.guma {
+	align-items: center;
+	flex-grow: 1;
+	width: 200px;
+}
+
+.guma img {
+	width: 55px;
+	height: 55px;
+}
+
+.guma p {
+	font-weight: bold;
+}
+
+.plava {
+	color: rgb(15, 109, 231);
+}
+
+#vrste h2 {
+	padding-top: 20px;
+}
+
+.vrste-bugattija {
+	display: flex;
+	margin-bottom: 60px;
+	justify-content: space-evenly;
+}
+
+.vrste-bugattija > div {
+	text-align: center;
+	position: relative;
+	width: 300px;
+	height: 150px;
+	margin-bottom: 50px;
+}
+
+.vrste-bugattija img {
+	width: 350px;
+	height: 200px;
+}
+
+.vrste-bugattija > div > img {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+
+.vrste-bugattija > div > p {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	padding: 22px;
+	background-color: rgba(6, 29, 73, 0.41);
+	border: 3px solid rgb(15, 109, 231);
+	width: 100%;
+	margin-bottom: -50px;
+	font-weight: bold;
 }
