@@ -1,485 +1,293 @@
-html {
-	cursor:none;
-	cursor: url('cursor1.png'), auto;
-}
-
-
-body {
-	background-color:black;
-	background-repeat:no-repeat;
-	padding: 0px;
-}
-
-
-
-.column {
-	width: auto;
-	height: 100vh;
-}
-
-.page .column {
-	height: 100vh;
-}
-
-#logo-i-social {
-	display: flex;
-}
-
-#logo-holder {
-	flex-grow: 1;
-	padding-top:5px;
-	padding-left:5px;
-	padding-bottom:5px;
-}
-
-#social-holder {
-	flex-grow: 1;
-	text-align: right;
-}
-
-
-#logo {
-	transition: all 0.3s;
-}
-#logo:hover {
-	cursor: url('cursor2.png'), auto;
-	transform: scale(1.3);
-}
-
-
-#ig {
-	padding-top:5px;
-	padding-right:5px;
-	margin:5px;
-	transition: all 0.3s;
-}
-#ig:hover {
-	cursor: url('cursor2.png'), auto;
-	transform: scale(1.3);
-}
-
-
-
-
-#twitter {
-	padding-top:5px;
-	margin:5px;
-	transition: all 0.3s;
-}
-#twitter:hover {
-	cursor: url('cursor2.png'), auto;
-	transform: scale(1.3);
-}
-
-
-
-
-
-#fb {
-	padding-top:5px;
-	margin:5px;
-	transition: all 0.3s;
-}
-#fb:hover {
-	cursor: url('cursor2.png'), auto;
-	transform: scale(1.3);
-}
-
-
-
-
-#yt {
-	padding-top:5px;
-	margin:5px;
-	transition: all 0.3s;
-}
-#yt:hover {
-	cursor: url('cursor2.png'), auto;
-	transform: scale(1.3);
-}
-
-
-#tt {
-	padding-top:5px;
-	margin:5px;
-	transition: all 0.3s;
-}
-#tt:hover {
-	cursor: url('cursor2.png'), auto;
-	transform: scale(1.3);
-}
-
-
-
-
-
-#main-menu {
-	display: flex;
-}
-
-#main-menu a {
-	flex-grow: 1;
-	text-align: center;
-	display: block;
-	border: 1px solid rgb(11, 85, 222);
-	padding: 10px 0;
-	text-decoration: none;
-	color:rgb(11, 85, 222);
-	font: 1000 1rem sans-serif;
-	transition: all 450ms;
-}
-
-#main-menu a:hover {
-	color:black;
-	background:rgb(11, 85, 222);
-	cursor: url('cursor2.png'), auto;
-}
-
-
-#body-title {
-	flex-grow: 1;
-	text-align: center;
-	color:rgb(0, 89, 255);
-	font: 1000 1rem sans-serif;
-}
-
-
-#pocetna {
-	background-image:url('bcbg2.png');
-	background-size: cover;
-	background-attachment: fixed;
-	color:rgb(15, 109, 231);
-}
-
-#pocetna h1 {
-	font-size: 48px;
-	margin-top: 0px;
-	padding-top: 50px;
-}
-
-.dark-box {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	background-color: rgb(6, 29, 73, 0.205);
-	border: 5px solid rgb(15, 109, 231);
-	width: 100%;
-	max-width: 1000px;
-	margin: 0 auto;
-	padding: 20px;
-	font-size: 17pt;
-	transition: all 0.3s;
-}
-
-.dark-box:hover {
-	transform: scale(1.2);
-}
-  
-.dark-box p {
-	max-width: 100%;
-  }
-
-.column iframe {
-	transition: all 0.3s;
-	opacity: 50%;
-	margin: 0 auto;
-	display: flex;
-}
-
-.column iframe:hover {
-	transform: scale(1.2);
-}
-
-
-#o-bugattiju {
-	background-color: black;
-	background-image:url('bcbg3.png');
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-#usluge {
-	background-color: black;
-	background-image:url('bcbg4.png');
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-#proizvodi {
-	background-color: black;
-	background-image:url('bcbg5.png');
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-#karijera {
-	background-color: black;
-	background-image:url('bcbg6.png');
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-#kontakt {
-	background-color: black;
-	background-image:url('bcbg7.png');
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-#klijenti {
-	background-color: black;
-	background-image:url('bcbg8.png');
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-#struktura {
-	background-color: black;
-	background-image:url('bcbg9.png');
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-.footer {
-	background-color: black;
-	background-image:url('bcbg11.png');
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-
-#main-menu a.active {
-	color:black;
-	background:rgb(11, 85, 222);
-}
-
-.align-center {
-	text-align:center;
-	color: rgb(15, 109, 231);
-}
-
-.krugovi {
-	display: flex;
-	margin: 40px 0;
-}
-
-.krug-holder {
-	flex-grow: 1;
-	text-align: center;
-}
-
-.krug {
-	background: rgb(15, 109, 231);
-	color:rgb(20, 40, 255);
-	font-size: 32px;
-	font-weight: bold;
-	width: 250px;
-	height: 250px;
-	display: inline-block;
-	border-radius: 100%;
-	line-height: 7.5;
-}
-
-.oznaka {
-	font-size: 24px;
-	font-weight: bold;
-	color: rgb(15, 109, 231);
-}
-
-.dark-box2 {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	background-color: rgb(6, 29, 73, 0.205);
-	border: 5px solid rgb(15, 109, 231);
-	width: 50%;
-	max-width: 500px;
-	margin: 10px auto;
-	padding: 10px;
-	font-size: 14pt;
-	transition: all 0.3s;
-}
-
-.dark-box2:hover {
-	transform: scale(1.2);
-}
-  
-.dark-box2 p {
-	max-width: 100%;
-  }
-
-.gume {
-	display: flex;
-  	justify-content: center;
- 	align-items: center;
-  	gap: 0px; 
-	flex-wrap: wrap;
-	margin-left: 45px;
-}
-
-.guma {
-	align-items: center;
-	flex-grow: 1;
-	width: 200px;
-}
-
-.guma img {
-	width: 55px;
-	height: 55px;
-}
-
-.guma p {
-	font-weight: bold;
-}
-
-.plava {
-	color: rgb(15, 109, 231);
-}
-
-#usluge h2 {
-	padding-top: 20px;
-}
-
-.usluge {
-	display: flex;
-	margin-bottom: 60px;
-	justify-content: space-evenly;
-}
-
-.usluge > div {
-	text-align: center;
-	position: relative;
-	width: 300px;
-	height: 150px;
-	margin-bottom: 50px;
-}
-
-.usluge img {
-	width: 350px;
-	height: 200px;
-}
-
-.usluge > div > img {
-	position: absolute;
-	top: 0px;
-	bottom: 0px;
-	right: 0px;
-	left: 0px;
-}
-
-.usluge > div > p {
-	font-size: 25px;
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	bottom: 0px;
-	padding: 22px;
-	background-color: rgba(6, 29, 73, 0.8);
-	border: 3px solid rgb(15, 109, 231);
-	width: 100%;
-	margin-bottom: -50px;
-	font-weight: bold;	
-}
-
-#proizvodi h2 {
-	padding: 20px;
-}
-
-.proizvod img {
-	width: 300px; /*900*/
-	height: 165px; /*540*/
-}
-
-#proizvod-b img {
-	height: 365.5px;
-	width: 285px;
-}
-
-#proizvod-f img {
-	width: 592.5px;
-}
-
-.matrica {
-	margin-left: 325px;
-	margin-top: 46px;
-	width: 900px;
-	height: 540px;
-	display: grid;
-	grid-template: "a b c"
-				   "d b e"
-				   "f f g";
-	align-content: space-between;
-	justify-content: space-between;
-}
-
-#proizvod-a {
-	grid-area: a;
-}
-
-#proizvod-b {
-	grid-area: b;
-}
-
-#proizvod-c {
-	grid-area: c;
-}
-
-#proizvod-d {
-	grid-area: d;
-}
-
-#proizvod-e {
-	grid-area: e;
-}
-
-#proizvod-f {
-	grid-area: f;
-}
-
-#proizvod-g {
-	grid-area: g;
-}
-
-.proizvod {
-	display: grid;
-	grid-template: "region";
-	align-content: stretch;
-	justify-content: stretch;
-	transition: all 0.3s;
-}
-
-.proizvod img {
-	grid-area: region;
-	justify-self: stretch;
-	align-self: stretch;
-}
-
-.proizvod .proizvodi-th {
-	grid-area: region;
-	justify-self: stretch;
-	align-self: stretch;
-	display: grid;
-	align-content: center;
-	justify-content: center;
-	font-size: 20px;
-	font-weight: bold;
-	background-color: rgb(15, 109, 231, 0.75);
-	transition: all 0.3s;
-	opacity: 0%;
-	text-decoration: none;
-	color: #000000;
-}
-
-.proizvodi-th:hover {
-	opacity: 100%;
-	cursor: url('cursor2.png'), auto;
-}
-
-.proizvod:hover {
-	transform: scale(1.2);
-}
-
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="sajtdario.css">
+		<title>Bugatti Chiron</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="header">
+		<div class="column">
+			<div id="logo-i-social">
+				<div id="logo-holder">
+				<a target="_blank" rel="noopener noreferrer" href="https://www.bugatti.com/">
+				<img id="logo" alt="bugatti-logo" src="logo.png" height="60" width="100"></a>
+						
+				</div>
+				<div id="social-holder">
+				<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/">
+					<img id="ig" align="right" src="instagram.png" width="30" height="30"></a>
+
+					<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/">
+					<img id="twitter" align="right" src="twitter.png" width="30" height="30"></a>
+
+					<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/">
+					<img id="fb" align="right" src="facebook.png" width="30" height="30"></a>
+					
+					<a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/">
+					<img id="tt" align="right" src="tiktok.png" width="30" height="30"></a>
+
+					<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/">
+					<img id="yt" align="right" src="youtube.png" width="38" height="30"></a>
+
+				</div>
+			</div>
+
+			<nav id="main-menu">
+				<a class="active" href="#">POČETNA</a>
+				<a href="#o-bugattiju">O BUGATTIJU</a>
+				<a href="#usluge">USLUGE</a> 
+				<a href="#proizvodi">PROIZVODI</a>
+				<a href="#karijera">KARIJERA</a>
+				<a href="#kontakt">KONTAKT</a>
+				<a href="#klijenti">KLIJENTI</a>
+				<a href="#struktura">STRUKTURA</a>
+			</nav>
+
+		<div class="page" id="pocetna">			
+			<div class="column">
+			<h1 id="body-title" align="center">BUGATTI CHIRON</h1>
+			
+			<div class = "dark-box"> 
+			<p>Ova web stranica namenjena je predstavljanju marke <b>BUGATTI CHIRON</b> na srpskom jeziku. Bugatti Chiron je sportski automobil srednjeg motora sa dva sedišta koji je u Nemačkoj dizajnirao i razvio Bugatti Engineering GmbH i proizveden u Molšajmu, u Francuskoj, od strane francuskog proizvođača automobila Bugatti Automobiles S.A.S.</p>
+			</div>
+			<p><iframe id="googlemap" align="center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10235554.516405309!2d-6.982598621198452!3d51.22064743038331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8cbcff3059ebf%3A0x80f45c5303b3ebb!2sPartners%20-%20Ownership%20-%20Bugatti!5e0!3m2!1sen!2suk!4v1701507727947!5m2!1sen!2suk" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+			</div>
+			</div>
+
+
+		<div class="page" id="o-bugattiju">
+			<div class="column">_
+			<h2 class="align-center" id="o-bugattiju-title" >O BUGATTIJU</h2>
+			<p class="align-center dark-box">Chiron može da ubrza od 0–100 km/h (0–62 mph) za 2,4 sekunde prema proizvođaču, 0–200 km/h (0–124 mph) za 6,5 sekundi i 0–300 km/h (0– 186 mph) za 13,6 sekundi. U testu sa svetskim rekordom u to vreme 2017. godine, Chiron je dostigao 400 km/h (249 mph) za 32,6 sekundi, nakon čega mu je bilo potrebno 9,4 sekunde da zakoči da bi se zaustavio.</p>
+			<br>
+			<div class="krugovi">
+				<div class="krug-holder align-center">
+					<div class="krug center">1103 KW</div>
+					<div class="oznaka"><b>Chrion Sport</b></div>
+				</div>
+				<div class="krug-holder align-center">
+					<div class="krug center">1177 KW</div>
+					<div class="oznaka"><b>Chiron Super Sport</b></div>
+				</div>
+				<div class="krug-holder align-center">
+					<div class="krug center">1200 KW</div>
+					<div class="oznaka"><b>Chiron Sport 300+</b></div>
+				</div>
+			</div>
+		<p class="align-center dark-box2" >Gume koje Bugatti Chiron najčešće koristi:</p>
+
+		<div class="gume">
+			<div class="guma">
+				<img alt="guma1" src="guma1.png">
+				<p class="plava">guma1</p>
+			</div>
+			<div class="guma">
+				<img alt="guma2" src="guma2.png">
+				<p class="plava">guma2</p>
+			</div>
+			<div class="guma">
+				<img alt="guma3" src="guma3.png">
+				<p class="plava">guma3</p>
+			</div>
+			<div class="guma">
+				<img alt="guma4" src="guma4.png">
+				<p class="plava">guma4</p>
+			</div>
+			<div class="guma">
+				<img alt="guma5" src="guma5.png">
+				<p class="plava">guma5</p>
+			</div>
+			<div class="guma">
+				<img alt="guma6" src="guma6.png">
+				<p class="plava">guma6</p>
+			</div>
+			<div class="guma">
+				<img alt="guma7" src="guma7.png">
+				<p class="plava">guma7</p>
+			</div>
+		</div>
+
+		</div>
+		</div>
+		
+		<div class="page" id="usluge">
+			<div class="column">
+				<h2 class="align-center">Usluge koje pruzamo...</h2>
+
+				<div class="usluge">
+					<div>
+						<img alt="chiron" src="chiron.jpg">
+						<p class="plava">POPRAVKA AUTOMOBILA</p>
+					</div>
+					<div>
+						<img alt="chiron super sport" src="chiron-super-sport.jpg">
+						<p class="plava">PRODAJA AUTOMOBILA</p>
+					</div>
+					<div>
+						<img alt="chiron super sport 300+" src="chiron-super-sport-300+.jpg">
+						<p class="plava">ZAMENA AUTOMOBILA</p>
+					</div>
+				</div>
+
+				<div class="usluge">
+					<div>
+						<img alt="chiron pur sport" src="chiron-pur-sport.jpg">
+						<p class="plava">IZMENA FAROVA</p>
+					</div>
+					<div>
+						<img alt="chiron profile" src="chiron-profile.jpg">
+						<p class="plava">IZMENA GUMA</p>
+					</div>
+					<div>
+						<img alt="" src="bugatti-divo.jpg">
+						<p class="plava">IZMENA MENJACA</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="page" id="proizvodi">
+			<div class="column">
+				<h2 class="align-center">Proizvodi</h2>
+				
+				<div class="matrica">
+				<div class="proizvod" id="proizvod-a">
+						<img alt="Proizvod A" src="chiron.jpg">
+						<a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Bugatti_Chiron" class="proizvodi-th" ><span>Bugatti Chiron</span></a>
+				</div>
+				
+				<div class="proizvod" id="proizvod-b">
+						<img alt="Proizvod B" src="chiron-super-sport-crop.jpg">
+						<a target="_blank" rel="noopener noreferrer" href="https://www.carscoops.com/2021/06/bugatti-tests-the-chiron-super-sport-to-its-273-mph-limited-top-speed/" class="proizvodi-th"><span>Bugatti Chiron Super Sport</span></a>
+				</div>
+				
+				<div class="proizvod" id="proizvod-c">
+						<img alt="Proizvod C" src="chiron-super-sport-300+.jpg">
+						<a target="_blank" rel="noopener noreferrer" href="https://carbuzz.com/cars/bugatti/chiron-super-sport-300" class="proizvodi-th"><span>Bugatti Chiron Super Sport 300+</span></a>
+				</div>
+				
+				<div class="proizvod" id="proizvod-d">
+						<img alt="Proizvod D" src="chiron-pur-sport.jpg">
+						<a target="_blank" rel="noopener noreferrer" href="https://www.bing.com/aclick?ld=e8C38QxoSWNbzDTM8-KeDitjVUCUwL2C-uFoDkPWyJ6o_YoaSK-XX-7hYysP7oflJNumZZLnVG0_rsEv08y437B7vdH3fkV2B_o7pfvlFBritWDwBXwzL2HpoUduOfwYCX_PcaVi5JiCWefnho-pibA1CzokHLKda_LTOEoeVHqxNc6kcP&u=aHR0cCUzYSUyZiUyZnd3dy5lYmF5LmNvbSUyZnVsayUyZnNjaCUyZiUzZl9ua3clM2RsZWdvJTI1MjBjb25zdHJ1Y3Rpb24lMjUyMHNldHMlMjZub3JvdmVyJTNkMSUyNm1rZXZ0JTNkMSUyNm1rcmlkJTNkNzExLTM0MDAwLTEzMDc4LTAlMjZta2NpZCUzZDIlMjZta3NjaWQlM2QxMDIlMjZrZXl3b3JkJTNkbGVnbyUyNTIwY29uc3RydWN0aW9uJTI1MjBzZXRzJTI2Y3JscCUzZF8lMjZNVF9JRCUzZCUyNmdlb19pZCUzZCUyNnJsc2F0YXJnZXQlM2Rrd2QtNzcxMDMzMDg1MzE2MzclM2Fsb2MtNDk5MyUyNmFkcG9zJTNkJTI2ZGV2aWNlJTNkYyUyNm1rdHlwZSUzZCUyNmxvYyUzZDE0MTQ3MSUyNnBvaSUzZCUyNmFiY0lkJTNkJTI2Y21wZ24lM2QzMDEwODM5NjAlMjZzaXRlbG5rJTNkJTI2YWRncm91cGlkJTNkMTIzMzY1MjEwNjI4NzY4OCUyNm5ldHdvcmslM2RvJTI2bWF0Y2h0eXBlJTNkYiUyNm1zY2xraWQlM2RiMGY2ODdjMmU4MWQxODQwMzFiNmUyMDhhMDMzNDc1MQ&rlid=b0f687c2e81d184031b6e208a0334751" class="proizvodi-th"><span>Bugatti Chiron Pur Sport</span></a>
+				</div>
+		
+				<div class="proizvod" id="proizvod-e">
+						<img alt="Proizvod E" src="chiron-profile.jpg">
+						<a target="_blank" rel="noopener noreferrer" href="https://www.automobile-magazine.fr/toute-l-actualite/article/37060-bugatti-chiron-profilee-vers-un-prix-record-aux-encheres-decouvrez-la-en-photos" class="proizvodi-th"><span>Bugatti Chiron Profilée</span></a>
+				</div>
+				
+				<div class="proizvod" id="proizvod-f">
+						<img alt="Proizvod F" src="bugatti-divo.jpg">
+						<a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Bugatti_Divo" class="proizvodi-th"><span>Bugatti Divo</span></a>
+				</div>
+
+				<div class="proizvod" id="proizvod-g">
+					<img alt="Proizvod G" src="divo-sport.jpg">
+					<a target="_blank" rel="noopener noreferrer" href="https://hdqwalls.com/bugatti-divo-red-performance-wallpaper" class="proizvodi-th"><span>Bugatti Divo Sport</span></a>
+			</div>
+			</div>
+		</div>
+		<div class="page" id="karijera">
+			<div class="column">
+				<h2>Karijera</h2>
+
+			
+			<div class="career-columns">
+			
+			     <div class="lista-poslova">
+				 <label for="j1">Prodavac</label>
+				 <label for="j2">Ugradnja delova</label>
+				 <label for="j3">Održavanje vozila</label>
+				 <label for="j4">Pranje vozila</label>
+				 <label for="j5">Rent vozila</label>
+				 </div>
+				 
+				 <div class="opisi-poslova">
+				 
+				    <input type="radio" name="job-item" value="1" id="j1" checked>
+				 <div class="opis-posla">
+				     <h3>Prodavac-oglas</h3>
+					 
+				<p>Da li želiš da postaneš deo našeg tima?</p>
+				<p>Tražimo komunikativnu i prijatnu osobu koja će raditi kao prodavac
+				u našem salonu.</p>
+				<p>Nije potrebno radno iskustvo ali ga je uvek poželjno imati.</p>
+				<p>Osoba koja želi da prihvati ovaj posao mora da bude:</p>
+				
+				  <li>Komunikativna</li>
+				  <li>Ljubazna</li>
+				  <li>Pažljiva</li>
+				  <li>Marljiva</li>
+				
+				<p>Oglas traje do 09.11.2024.</p>
+				
+				 </div>
+				 
+				    <input type="radio" name="job-item" value="2" id="j2">
+				 <div class="opis-posla">
+				     <h3>Ugradnja delova-oglas</h3>
+				
+				<p>Za ovaj posao osoba mora da ima završenu mehanicarsku srednju školu.</p>
+				<p>Osoba koju mi tražimo mora da bude profesionalan dok obavlja ovaj posao.</p>
+				<li>Za ovaj posao morate imati radno mehanicarsko iskustvo</li>
+				<p>Oglas traje do 01.12.2024.</p>
+				
+				 </div>
+				 
+				 <input type="radio" name="job-item" value="3" id="j3">
+				 <div class="opis-posla">
+				     <h3>Održavanje vozila-oglas</h3>
+				
+				<p>Za ovaj posao osoba mora da ima mehanicarsku završenu srednju školu.</p>
+				<p>Osoba koju mi tražimo mora da bude profesionalan dok obavlja ovaj posao.</p>
+				<p>Posao obuhvata čišćenje vozila iznutra .</p>
+				<li>Za ovaj posao morate imati radno iskustvo</li>
+				<p>Oglas traje do 12.10.2024.</p>
+				
+				 </div>
+				 
+				 <input type="radio" name="job-item" value="4" id="j4">
+				 <div class="opis-posla">
+				     <h3>Pranje vozila-oglas</h3>
+				
+				<p>Najviše se u ovom poslu pranje vozila.</p>
+				<p>Potrebna završena srednja škola.</p>
+				<p>Osoba koju mi tražimo mora da bude pažljiva dok obavlja ovaj posao.</p>
+				<li>Za ovaj posao morate imati radno iskustvo</li>
+				<p>Oglas traje do 10.09.2024.</p>
+				
+				 </div>
+				 
+				 <input type="radio" name="job-item" value="5" id="j5">
+				 <div class="opis-posla">
+				     <h3>Prijava za Rent vozila</h3>
+				
+				<p>Tražimo radnike.</p>
+				<li>Radna iskustva su obavezna za sve poslove osim za rent vozila</li>
+				<li>Srednja škola za sve poslove obavezna</li>
+				<p>Ako želite da postanete deo našeg tima popunite formu <a href="formular.html">klikom ovde</a> </p>
+				<p>Oglas traje do 30.10.2024.</p>
+				
+				 </div>
+				 
+				 </div>
+			</div>
+			
+			</div>
+			</div>
+			
+		<div class="page" id="kontakt">
+			<div class="column">6</div>
+		</div>
+		<div class="page" id="klijenti">
+			<div class="column">7</div>
+		</div>
+		<div class="page" id="struktura">
+			<div class="column">8</div>
+		</div>
+		<div class="footer">
+			<div class="column">9</div>
+		</div>
+	</body>
+</html>
