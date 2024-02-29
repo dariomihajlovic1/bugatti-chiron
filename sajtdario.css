@@ -19,7 +19,14 @@ body {
 
 .page .column {
 	height: 100vh;
-	width: 100%;
+	width: 75%;
+	margin-left: 12.5%;
+}
+
+p {
+  /* Centriranje horizontalno */
+  text-align: center;
+}
 }
 
 #logo-i-social {
@@ -325,7 +332,6 @@ body {
 .guma {
 	align-items: center;
 	flex-grow: 1;
-	width: 200px;
 }
 
 .guma img {
@@ -405,7 +411,7 @@ body {
 }
 
 .matrica {
-	margin-left: 325px;
+	margin-left: 12.5%;
 	margin-top: 46px;
 	width: 900px;
 	height: 540px;
@@ -516,6 +522,11 @@ body {
 	font-weight: bold;
 	font-size: 20px;
 }
+
+.lista-poslova label:hover {
+	cursor: url('cursor1.png'), auto;
+}
+
 .opisi-poslova input {
 	display: none;
 }
@@ -531,4 +542,5 @@ body {
 	border: 3px solid rgb(15, 109, 231, 0.8);
 	padding: 10px;
 	font-size: 20px;
-}	
+}
+
