@@ -189,14 +189,14 @@ p {
 	max-width: 100%;
   }
 
-.column iframe {
+.map iframe {
 	transition: all 0.3s;
 	opacity: 50%;
 	margin: 0 auto;
 	display: flex;
 }
 
-.column iframe:hover {
+.map iframe:hover {
 	transform: scale(1.2);
 }
 
@@ -544,3 +544,48 @@ p {
 	font-size: 20px;
 }
 
+#kontakt h1 {
+	padding: 40px;
+}
+
+.kontakt-adrese {
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(15, 150, 231);	
+}
+
+.kontakt-region {
+	display: grid;
+	grid-template: "adrese  mapa"
+				   "mejlovi mapa";
+	grid-template-columns: 300px 1fr;
+}
+
+.kontakt-adrese {
+	grid-area: adrese;
+}
+
+.kontak-mejlovi {
+	grid-area: mejlovi;
+}
+
+.kontakt-mapa {
+	grid-area: mapa;
+}
+
+.kontakt-mejlovi {
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(15, 150, 231);	
+}
+
+.map2 {
+	transition: all 0.3s;
+	margin: 0 auto;
+	display: flex;
+}
+
+.map2:hover {
+	transform: scale(1.2);
+}	
